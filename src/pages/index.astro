@@ -7,17 +7,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main style="text-align: center;">
-	<h1>QUESTO E' IL POSTO CHE CERCAVI</h1>
-	<img src="/assets/esoteric.png" alt="Un posto esoterico" width="1024" height="576" />
-	<p>adesso ti porterò nel paranormale</p>
-</main>
-
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <!-- Import font medievale da Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <Header />
+    <main style="text-align: center;">
+      <h1 style="font-family: 'UnifrakturCook', cursive;">Questo è il posto che cercavi</h1>
+      <img src="/assets/esoteric.png" alt="Un posto esoterico" width="1024" height="576" />
+      
+      <p style="font-family: 'UnifrakturCook', cursive;">Seguendo il mio percorso capirai tante cose</p>
+	    <p style="font-family: 'UnifrakturCook', cursive;">clicca su BLOG e vedrai delle storie incredibili</p>
+    </main>
+    <Footer />
+  </body>
 </html>
