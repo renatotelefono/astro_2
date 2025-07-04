@@ -18,6 +18,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   <meta charset="utf-8" />
   <title>{frontmatter.title}</title>
 
+<meta name="description" content={frontmatter.description} />
+
+
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1WQ64SG633"></script>
   <script>

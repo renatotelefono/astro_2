@@ -1,6 +1,6 @@
 ---
 title: 'Amorth'
-description: 'Lorem ipsum dolor sit amet'
+description: 'Questo è quello che serve per la SEO'
 pubDate: 'Jul 08 2025'
 heroImage: '../../assets/amorth.jpg'
 ---
