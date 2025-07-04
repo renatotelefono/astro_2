@@ -8,6 +8,39 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <!doctype html>
 <html lang="en">
   <head>
+
+<style>
+  .intro-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1.5em;
+  }
+</style>
+
+
+
+
+<style>
+  .intro-text {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 1.5em; /* Puoi modificare questa dimensione a piacere */
+  }
+
+  .blog-link {
+    font-size: 1em;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+  }
+
+  .blog-link:hover {
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff3333, 0 0 20px #ff6666;
+  }
+</style>
+
+
+
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRGPW9M2J5"></script>
 <script>
@@ -27,8 +60,18 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
       <h1 style="font-family: 'UnifrakturCook', cursive;">Questo è il posto che cercavi</h1>
       <img src="/assets/esoteric.png" alt="Un posto esoterico" width="1024" height="576" />
       
-      <p style="font-family: 'UnifrakturCook', cursive;">Seguendo il mio percorso capirai tante cose</p>
-	    <p style="font-family: 'UnifrakturCook', cursive;">clicca su BLOG e vedrai delle storie incredibili</p>
+      
+	  
+    <p class="intro-text">Seguendo il mio percorso capirai tante cose</p>
+
+  <p class="intro-text">
+  clicca <a href="/blog" class="blog-link">QUI</a> e vedrai delle storie incredibili
+</p>
+
+
+ 
+
+    
     </main>
     <Footer />
   </body>
